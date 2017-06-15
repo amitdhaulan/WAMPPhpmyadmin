@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+    <line>
+      <![CDATA[Getting new instance for connection class]]>
+    </line>
+    <line>
+      <![CDATA[Getting connection with connection class]]>
+    </line>
+    <line>
+      <![CDATA[Getting statement for the query]]>
+    </line>
+    <line>
+      <![CDATA[Returning statement to the function]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="95328" started-at="2017-06-15T14:04:01Z" finished-at="2017-06-15T14:05:37Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="95328" started-at="2017-06-15T14:04:01Z" finished-at="2017-06-15T14:05:37Z">
+      <class name="modules.Login">
+        <test-method status="PASS" signature="startUp()[pri:0, instance:modules.Login@13e39c73]" name="startUp" is-config="true" duration-ms="9816" started-at="2017-06-15T19:34:01Z" finished-at="2017-06-15T19:34:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method status="PASS" signature="loginApp()[pri:0, instance:modules.Login@13e39c73]" name="loginApp" duration-ms="2841" started-at="2017-06-15T19:34:11Z" finished-at="2017-06-15T19:34:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginApp -->
+        <test-method status="PASS" signature="createDatabase()[pri:1, instance:modules.Login@13e39c73]" name="createDatabase" duration-ms="979" started-at="2017-06-15T19:34:14Z" finished-at="2017-06-15T19:34:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDatabase -->
+        <test-method status="PASS" signature="createTable()[pri:2, instance:modules.Login@13e39c73]" name="createTable" duration-ms="4017" started-at="2017-06-15T19:34:15Z" finished-at="2017-06-15T19:34:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTable -->
+        <test-method status="PASS" signature="insertData(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:modules.Login@13e39c73]" name="insertData" duration-ms="68955" started-at="2017-06-15T19:34:19Z" data-provider="DataValues" finished-at="2017-06-15T19:35:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Amit]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Gzb]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[23445 ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Getting new instance for connection class]]>
+            </line>
+            <line>
+              <![CDATA[Getting connection with connection class]]>
+            </line>
+            <line>
+              <![CDATA[Getting statement for the query]]>
+            </line>
+            <line>
+              <![CDATA[Returning statement to the function]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- insertData -->
+        <test-method status="PASS" signature="insertData(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:modules.Login@13e39c73]" name="insertData" duration-ms="4330" started-at="2017-06-15T19:35:28Z" data-provider="DataValues" finished-at="2017-06-15T19:35:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ajay]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[US]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[7777]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insertData -->
+        <test-method status="PASS" signature="insertData(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:modules.Login@13e39c73]" name="insertData" duration-ms="2024" started-at="2017-06-15T19:35:32Z" data-provider="DataValues" finished-at="2017-06-15T19:35:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Aman]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Delhi]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[54123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insertData -->
+        <test-method status="PASS" signature="insertData(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:modules.Login@13e39c73]" name="insertData" duration-ms="2280" started-at="2017-06-15T19:35:34Z" data-provider="DataValues" finished-at="2017-06-15T19:35:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rahul]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Noida]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2541]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insertData -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:modules.Login@13e39c73]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-06-15T19:35:37Z" finished-at="2017-06-15T19:35:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- modules.Login -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
